@@ -1,0 +1,117 @@
+/*---------- All Body ----------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+/*--------- Site-Wrapper ----------*/
+
+.container {
+  max-width: 100;
+  height: 100vh;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*---------- Body-background image*/
+
+body {
+  background: url(./assets/law.jpg) rgba(20, 20, 20, 0.205);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.section {
+  background-color: rgba(43, 41, 34, 0.521);
+}
+
+/*---------- Nav-Bar ----------*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 75%;
+  align-items: center;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  font-family: "Roboto Slab", serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.flex-1 {
+  flex-grow: 2;
+}
+
+.grid-2 {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-small {
+  margin-right: -60px;
+  color: #daa520;
+  background-color: rgba(43, 41, 34, 0.521);
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: 2px solid #daa520;
+}
+
+/*---------- Hero Section ----------*/
+
+.hero {
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+.hero-heading {
+  max-width: 45%;
+  flex-grow: 1;
+  font-family: "Roboto Slab", serif;
+  font-size: 70px;
+  color: #f4f4f4;
+}
+.para {
+  max-width: 40%;
+  flex-grow: 1;
+  font-family: "Roboto Slab", serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #f4f4f4;
+}
+
+/*---------- Hover-Effect ---------*/
+
+.list-item:hover {
+  border-bottom: 2px solid #daa520;
+}
+
+.button-small:hover {
+  padding: 8px 20px;
+  border-radius: 8px;
+  background-color: #cf9401ef;
+  border: 2px solid #daa520;
+  color: #f8f8f8;
+  transition: 0.5s;
+}
